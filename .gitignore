@@ -1,0 +1,10 @@
+#My ignored folders
+.idea/
+node_modules/
+assets/css/
+assets/font/
+assets/img/
+assets/js/
+
+#My ignored files
+.gitattributes

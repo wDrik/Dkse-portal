@@ -1,0 +1,179 @@
+@import 'variables';
+
+// Contact
+#contact {
+	width: 100%;
+	background: $bg-gray;
+	padding: 74px 0;
+
+	display: flex;
+
+	h3 {
+		color: $title-black;
+		font-size: 1.6em;
+		font-weight: 400;
+		margin-bottom: 8px;
+	}
+
+
+	.flexible {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#contact-info {
+		width: 50%;
+		// background: #ccc;
+		p {
+			color: $gray;
+			font-size: 1.1em;
+		}
+
+		ul li{
+			color: $gray;
+			span{
+				color: $title-black;
+				font-weight: 500;
+			}
+			a{
+				color: $gray;
+				font-weight: 500;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.icon-email, .icon-phone-1 {
+			font-size: 1.1em;
+		}
+
+        .icon-linkedin-1 {
+            color: #1b86bc;
+            font-size: 1.3em;
+        }
+        .icon-facebook-1 {
+            color: #3b5998;
+            font-size: 1.3em;
+
+
+        }
+	}
+
+
+	#contact-form {
+		width: 50%;
+
+		display: flex;
+		flex-wrap:wrap;
+
+		form {
+			input {
+				width: 49.5%;
+				padding: 10px;
+				margin: 5px 0;
+				font-size: 1em;
+				color: $gray;
+				border: 2px solid $light-gray;
+			}
+
+			.input-100 {
+				width: 99.5%;
+                margin-top: 0;
+			}
+
+			textarea {
+				width: 99.5%;
+				font-size: 1em;
+				color: $gray;
+				padding: 10px;
+				border: 2px solid $light-gray;
+			}
+
+			.btn-custom {
+				width: auto;
+                border: none;
+				background: $light-black;
+				color: $white;
+				padding: 14px 28px;
+
+				font-weight: 600;
+
+
+
+				&:hover {
+					background: $hover-black-transp;
+
+					-webkit-transition:All .7s ease;
+					-moz-transition:All .7s ease;
+					-o-transition:All .7s ease;
+					transition:All .7s ease;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+footer {
+	width: 100%;
+	height: 70px;
+	background: $light-black;
+	text-align: center;
+
+	#footer {
+		display: flex;
+		flex-wrap: wrap;
+
+		#copy {
+			width: 50%;
+			ul {
+				li {
+					color: $light-gray;
+					margin: 25px 0;
+					text-align: left;
+
+					em {
+						color: $gray;
+					}
+				}
+			}
+
+		}
+
+		#social-networks {
+			width: 50%;
+			ul {
+				display: flex;
+				justify-content: flex-end;
+
+				li {
+					margin: 20px 0 20px 12px;
+					width: 20px;
+					height: 20px;
+					font-size: 22px;
+
+					a {
+						color: $gray;
+						text-align:center;
+						font-size: 1em;
+						text-decoration: none;
+
+
+						&:hover {
+							color: $white;
+
+						}
+					}
+				}
+			}
+		}
+	}
+}

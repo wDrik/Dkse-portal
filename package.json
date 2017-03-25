@@ -1,0 +1,24 @@
+{
+  "name": "DkseCompany",
+  "version": "1.0.0",
+  "description": "config default of the gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iorgen Wildrik",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "wowjs": "^1.1.3"
+  }
+}

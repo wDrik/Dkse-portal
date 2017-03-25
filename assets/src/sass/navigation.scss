@@ -1,0 +1,111 @@
+@import 'variables';
+
+
+//*---------- Bootstrap Navigation ----------*/
+.navbar-inverse {
+	height: 80px;
+	padding: 13px 0;
+	background: transparent;
+
+
+	-webkit-transition:All .7s ease;
+	-moz-transition:All .7s ease;
+	-o-transition:All .7s ease;
+	transition:All .7s ease;
+
+	//-webkit-box-shadow: 0px 1px 5px 0px rgba(51,51,51,0.7);
+	//-moz-box-shadow: 0px 1px 5px 0px rgba(51,51,51,0.7);
+	//box-shadow: 0px 1px 5px 0px rgba(51,51,51,0.7);
+
+
+	img {
+		width: 198px;
+		margin: 0;
+
+		-webkit-transition:All .7s ease;
+		-moz-transition:All .7s ease;
+		-o-transition:All .7s ease;
+		transition:All .7s ease;
+	}
+
+	.navbar-nav {
+
+		line-height: 80px;
+		margin-top: 2px;
+		font-size: 0.9em;
+
+
+		li > a {
+			font-weight: 700;
+			color: $light-gray;
+
+			&:hover, &:focus {
+				background: transparent;
+				color: $blue-theme;
+
+				-webkit-transition:All .7s ease;
+				-moz-transition:All .7s ease;
+				-o-transition:All .7s ease;
+				transition:All .7s ease;
+			}
+		}
+	}
+
+	.dropdown-menu {
+		background: rgba(255, 255, 255, 0.97);
+		margin-right: 12px;
+		border-radius: 0;
+		padding: 0;
+
+
+		-webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.55);
+		-moz-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.55);
+		box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.55);
+
+		li {
+			&:hover {
+				border-left: 4px solid $blue-theme;
+			}
+		}
+
+		li > a {
+			padding: 0 8px;
+			line-height: 34px;
+			font-weight: 600;
+			color: $gray;
+			font-size: 0.9em;
+		}
+	}
+
+	.dropdown-menu:after {
+		bottom: 100%;
+		left: 70%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: #ffffff;
+		border-width: 7px;
+		//margin-left: 0px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

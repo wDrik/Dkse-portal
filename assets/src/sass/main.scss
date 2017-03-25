@@ -1,0 +1,74 @@
+@import '_variables';
+
+/*---------- Reset ----------*/
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-family: $open;
+	text-decoration: none;
+	list-style: none;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	padding: 0 40px;
+}
+
+
+
+/*---------- GoTop ----------*/
+#go-top {
+	display:none;
+	position: fixed;
+	background: $light-black-transp;
+	padding: 2px;
+	bottom: 18px;
+	right: 22px;
+	border-radius: 2px;
+	border: none;
+	color: $white;
+	font-size: 1.2em;
+
+	&:hover {
+		background: $blue-theme;
+
+		-webkit-transition:All .7s ease;
+		-moz-transition:All .7s ease;
+		-o-transition:All .7s ease;
+		transition:All .7s ease;
+	}
+}
+
+.social-fadein {
+	z-index: 10000;
+	display: none;
+	position: fixed;
+	border: 0px;
+	font-size: 1.2em;
+	color: $white;
+	top: 28px;
+
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.face {
+	right: 40px;
+	background: #3b5998;
+}
+
+.linkedin {
+	right: 74px;
+	background: #1b86bc;
+}
